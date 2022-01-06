@@ -14,6 +14,7 @@ h2{
 }
 p{
     color: #3E3E3E;
+    font-size: 19px;
 }
 .row{
     display: flex;
@@ -93,6 +94,8 @@ p{
 }
 #mission .box-area p{
     padding: 27px 27px 35px 27px;
+    font-size: 17px;
+    word-spacing: 2px;
 }
 
 #guide{
@@ -116,4 +119,30 @@ p{
 }
 .guide-right p{
     padding: 10px 0 47px 0;
+}
+
+#project{
+    width: 90%;
+    margin: 60px auto;
+}
+#project{
+    display: flex;
+    padding-top: 108px;
+}
+.project-left{
+    flex: 60%;
+    padding-left: 30px;
+}
+
+.project-left h1{
+    padding: 59px 0 21px 0;
+}
+.project-left p{
+    padding: 2px 0 36px 0;
+}
+.project-right{
+    flex: 30%;
+}
+.project-right .project-img{
+    width: 100%;
 }
