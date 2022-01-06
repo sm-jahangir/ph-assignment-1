@@ -9,6 +9,12 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 35px;
+}
+p{
+    color: #3E3E3E;
+}
 .row{
     display: flex;
     align-items: center;
@@ -87,4 +93,27 @@ h1{
 }
 #mission .box-area p{
     padding: 27px 27px 35px 27px;
+}
+
+#guide{
+    width: 90%;
+    margin: 37px auto;
+}
+#guide .guide-left{
+    float: left;
+    width: 35%;
+    margin-right: 20px;
+}
+#guide .guide-left img{
+    width: 100%;
+}
+#guide .guide-right{
+    float: right;
+    width: 60%;
+}
+.guide-right h2{
+    padding: 59px 0 21px 0;
+}
+.guide-right p{
+    padding: 10px 0 47px 0;
 }
