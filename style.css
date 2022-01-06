@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,4 +6,42 @@
 body{
     width: 80%;
     margin: 0 10% 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+}
+.header-color{
+    color: #FFAD5A;
+}
+.btn{
+    background-color: #FF5959;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+#baner .baner-text h1{
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #333333;
+}
+#baner p{
+    padding: 20px 20px 20px 0;
+    color: #3E3E3E;
+}
+.baner-img{
+    width: 80%;
+    float: right;
 }
