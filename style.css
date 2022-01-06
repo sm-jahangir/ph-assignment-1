@@ -68,7 +68,7 @@ p{
 }
 #mission{
     width: 90%;
-    margin: auto;
+    margin-left: 102px;
 }
 #mission .box-area{
     border-radius: 12px;
@@ -139,6 +139,7 @@ p{
 }
 .project-left p{
     padding: 2px 0 36px 0;
+    margin-right: 30px;
 }
 .project-right{
     flex: 30%;
@@ -154,7 +155,7 @@ p{
 #corona .app-header{
     width: 50%;
     margin: auto;
-    padding: 50px 0;
+    padding: 50px 0 30px 0;
 }
 .corona-left{
     flex: 40%;
