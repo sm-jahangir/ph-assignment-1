@@ -4,8 +4,6 @@
     padding: 0;
 }
 body{
-    width: 80%;
-    margin: 0 10% 0 10%;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -19,6 +17,10 @@ h1{
 .col{
     flex-basis: 50%;
 }
+.col-3{
+    flex-basis: 30%;
+    flex-wrap: wrap;
+}
 .header-color{
     color: #FFAD5A;
 }
@@ -29,6 +31,10 @@ h1{
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
+}
+#baner{
+    width: 80%;
+    margin: auto;
 }
 #baner .baner-text h1{
     font-family: 'Courgette', cursive;
@@ -44,4 +50,41 @@ h1{
 .baner-img{
     width: 80%;
     float: right;
+}
+
+
+#mission h1{
+    color: #13103A;
+    width: 40%;
+    margin: 20px auto;
+    font-weight: bold;
+}
+#mission{
+    width: 90%;
+    margin: auto;
+}
+#mission .box-area{
+    border-radius: 12px;
+    margin: 15px;
+    text-align: justify;
+}
+#mission .box-area-1{
+    background-color: #EEF6F7;
+}
+#mission .box-area-2{
+    background-color: #FFEFEF;
+}
+#mission .box-area-3{
+    background-color: #FFF4D6;
+}
+#mission .box-area img{
+    width: 150px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#mission .box-area h2{
+    padding-left: 27px;
+}
+#mission .box-area p{
+    padding: 27px 27px 35px 27px;
 }
