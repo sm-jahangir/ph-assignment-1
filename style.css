@@ -286,6 +286,7 @@ input[type="password"]:focus {
     margin-bottom: 5px;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
 }
 .facebook_twitter{
     background-color: #55ACEE;
@@ -295,6 +296,7 @@ input[type="password"]:focus {
     margin: 10px 0;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
 }
 .facebook_google{
     background-color: #DD4B39;
@@ -303,4 +305,5 @@ input[type="password"]:focus {
     border-radius: 2px solid #DD4B39;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
 }
