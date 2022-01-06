@@ -146,3 +146,34 @@ p{
 .project-right .project-img{
     width: 100%;
 }
+#corona{
+    width: 90%;
+    margin: 100px auto;
+}
+#corona .app-header{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+.corona-left{
+    flex: 40%;
+    background-image: url(./images/shapes/shape-3.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+}
+.corona-right{
+    flex: 50%;
+    margin-left: 100px;
+}
+.corona-right h1{
+    padding: 59px 0 21px 0;
+}
+.corona-right p{
+    padding: 2px 0 36px 0;
+}
+.corona-left img{
+    width: 58%;
+    margin-left: 127px;
+}
