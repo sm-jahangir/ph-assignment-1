@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@400;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -38,6 +38,8 @@ p{
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
 }
 #baner{
     width: 80%;
@@ -70,6 +72,9 @@ p{
     width: 90%;
     margin-left: 102px;
 }
+#mission h2{
+    font-size: 22px;
+}
 #mission .box-area{
     border-radius: 12px;
     margin: 15px;
@@ -95,7 +100,6 @@ p{
 #mission .box-area p{
     padding: 27px 27px 35px 27px;
     font-size: 17px;
-    word-spacing: 2px;
 }
 
 #guide{
@@ -196,4 +200,107 @@ footer p{
     text-align: center;
     color: #fff;
     font-size: 14px;
+}
+
+
+.contact-body{
+    background-image: url('./images/computer-networking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+.container{
+    width: 70%;
+    margin: 50px auto;
+    background-color: #fff;
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
+}
+.first_section{
+    width: 40%;
+    float: left;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 60%;
+    padding: 10px 0px;
+    margin: 10px 0px 15px 40px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-size: 15px;
+    font-weight: normal;
+    transition: 0.2s ease;
+    display: block;
+    box-sizing: border-box;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+.signin{
+    margin-left: 36px;
+    border: none;
+    background-color:  #16a085;
+    font-size: normal;
+    padding: 18px 34px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+.or{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 55%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.middle_section{
+    width: 8%;
+    float: left;
+    padding-right: 19px;
+}
+.middle_section button{
+    margin-top: 200px;
+}
+
+.last_section{
+    width: 45%;
+    float: left;
+    margin-top: 120px;
+}
+.last_section button{
+    width: 100%;
+}
+.facebook_signin{
+    background-color: #32508E;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 2px solid #2c4f96;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.facebook_twitter{
+    background-color: #55ACEE;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 2px solid #2c4f96;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: bold;
+}
+.facebook_google{
+    background-color: #DD4B39;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 2px solid #DD4B39;
+    color: #fff;
+    font-weight: bold;
 }
